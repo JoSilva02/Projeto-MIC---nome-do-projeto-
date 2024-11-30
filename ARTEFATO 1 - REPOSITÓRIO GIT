@@ -21,8 +21,8 @@ bool flag = 1; // Variável de controle para evitar múltiplos envios da mensage
 
 // Número de telefone e chave da API para CallMeBot
 String phoneNumber1 = "559584140671"; 
-String apiKey1 = "6312015"; 
-String phoneNumber2 = "559584012655";
+String apiKey1 = "xxx"; 
+String phoneNumber2 = "xxx";
 String apiKey2 = "6364292";
 
 // Função para enviar a mensagem via CallMeBot API
