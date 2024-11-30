@@ -10,7 +10,7 @@ ARTEFATO 1 - REPOSITÓRIO GIT
 
 // Definição das credenciais do WiFi
 const char* ssid = "Starlink_CIT"; // Nome da rede WiFi
-const char* password = "Ufrr@2024Cit"; // Senha do WiFi
+const char* password = "xxxx"; // Senha do WiFi
 
 // Definição dos pinos do botão e LEDs
 #define botao 21
@@ -20,10 +20,10 @@ const char* password = "Ufrr@2024Cit"; // Senha do WiFi
 bool flag = 1; // Variável de controle para evitar múltiplos envios da mensagem
 
 // Número de telefone e chave da API para CallMeBot
-String phoneNumber1 = "559584140671"; 
+String phoneNumber1 = "xxx"; 
 String apiKey1 = "xxx"; 
 String phoneNumber2 = "xxx";
-String apiKey2 = "6364292";
+String apiKey2 = "xxx";
 
 // Função para enviar a mensagem via CallMeBot API
 bool sendMessage(String phoneNumber, String apiKey, String message) {
