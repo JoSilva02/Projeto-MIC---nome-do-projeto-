@@ -2,7 +2,7 @@
 *Atividade:* Maker Aula 2   
 *Nome dos participantes:* Andreza Oliveira Gonçalves, Fábio Aurélio Barros Alexandre, Jonathan Emerson Braga da Silva  
  
-##**Projeto de botão de pânico com delay reduzido**
+## **Projeto de botão de pânico com delay reduzido**
 ```c
 #include <WiFi.h>
 #include <HTTPClient.h>
@@ -98,11 +98,11 @@ void loop() {
 }
 ```
 
-##Mudanças implementadas:  
-Redução do delay da verificação Wi-Fi: O delay(500) foi reduzido para delay(100), diminuindo o tempo de espera enquanto o ESP32 tenta se conectar ao Wi-Fi.
+## Mudanças implementadas:  
+**Redução do delay da verificação Wi-Fi:** O delay(500) foi reduzido para delay(100), diminuindo o tempo de espera enquanto o ESP32 tenta se conectar ao Wi-Fi.
 
-Uso de GET em vez de POST: A mudança para o método GET pode ser mais rápida do que o POST, já que o GET não envolve o envio de um corpo de requisição, apenas os parâmetros na URL.
+**Uso de GET em vez de POST:** A mudança para o método GET pode ser mais rápida do que o POST, já que o GET não envolve o envio de um corpo de requisição, apenas os parâmetros na URL.
 
-Melhora na lógica do botão: O código agora verifica de forma mais rápida o estado do botão para evitar que o processo de envio da mensagem seja interrompido por delays desnecessários.
+**Melhora na lógica do botão:** O código agora verifica de forma mais rápida o estado do botão para evitar que o processo de envio da mensagem seja interrompido por delays desnecessários.
 
 
